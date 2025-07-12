@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusión filas y columnas</title>
+</head>
+<body>
+<hr>
+    <h1><center>Fusión filas y columnas</center></h1>
+<hr>
+<h2><center>Antes</center></h2>
+    <table border="1" cellspacing="0" cellpadding="5" width="90%" align="center">
+        <thead>
+            <tr>
+                <th>a</th>
+                <th>a</th>
+                <th>e</th>
+            </tr>
+            <tr>
+                <th>a</th>
+                <th>a</th>
+                <th>e</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+        </tbody>
+    </table>
+<hr>
+<h2><center>Después</center></h2>
+    <table border="3" cellspacing="0" cellpadding="5" width="90%" align="center">
+        <thead>
+            <tr>
+                <th colspan="3">Datos personales</th>
+            </tr>
+            <tr>
+                <th colspan="2">Nombre</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jhon Jairo</td>
+                <td>Cortes Paredes</td>
+                <td rowspan="2">jhon@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Carolina</td>
+                <td>Marquez</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
