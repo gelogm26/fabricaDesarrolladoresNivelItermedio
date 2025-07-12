@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <hr>
+    <h1><center>Formularios HTML</center></h1>
+    <hr>
+
+    <form action="procesar.py" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="nombre">Nombre: </label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba el nombre" required><br><br>
+
+            <label for="apellido">Apellido: </label><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido" required><br><br>
+
+            <label for="correo">Email: </label><br>
+            <input type="email" id="correo" name="correo" placeholder="Escriba su email" required><br><br>
+
+            <label for="edad">Edad: </label><br>
+            <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required><br><br>
+
+            <label for="fnacimiento">Fecha nacimiento: </label><br>
+            <input type="date" name="fnacimiento" id="fnacimiento" placeholder="Fecha nacimiento" required><br><br>
+
+            <label for="">Genero: </label><br>
+
+            <input type="radio" name="genero" id="masculino" value="m">
+            <label for="">Masculino</label>
+
+            <input type="radio" name="genero" id="femenino" value="f">
+            <label for="">Femenino</label><br><br>
+
+            <label for="">Musica favorita: </label><br>
+            
+            <label for="">Clasica</label>
+            <input type="checkbox" id="clasica" name="musica" value="clasica"><br>
+            
+            <label for="">Salsa</label>
+            <input type="checkbox" id="salsa" name="musica" value="salsa"><br>
+            
+            <label for="">Vallenato</label>
+            <input type="checkbox" id="vallenato" name="musica" value="vallenato"><br>
+
+            <label for="">Rock</label>
+            <input type="checkbox" id="rock" name="musica" value="rock"><br>
+            
+            <label for="">Vallenato</label>
+            <input type="checkbox" id="vallenato" name="vallenato" value="rock"><br><br>
+
+            <label for="">Pasatiempos: </label><br>
+            <select name="pasatiempos" id="pasatiempos">
+                <option value="0"></option>
+                <option value="1">Leer</option>
+                <option value="2">Dormir</option>
+                <option value="3">Jugar</option>
+                <option value="4">Investigar</option>
+                <option value="5">Bailar</option>
+            </select><br><br>
+
+            <label for="">Descripción: </label><br>
+            <textarea id="descripcion" name="descripcion" placeholder="Escriba Descripción" cols="50" rows="10" required></textarea><br><br>
+            
+            <button type="submit">Enviar</button> |||
+            <button type="reset">Limpiar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
