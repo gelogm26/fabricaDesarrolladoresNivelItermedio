@@ -1,3 +1,11 @@
+/* Selector tipo universal */
+
+*{
+    background-color: rgb(255, 251, 245);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: coral;
+}
+
 /*Selector de tipo global o elemento*/
 
 span{
@@ -29,4 +37,39 @@ span{
 /* Selector de tipo identificador */
 #color-titulo{
     color: brown;
+}
+
+/* Selector tipo Subclase - específico */
+p.estilo-parrafo{
+    font-size: 10px;
+    color: blue;
+}
+
+/* Selector tipo descendente */
+div p span{
+    color: chartreuse;
+}
+
+/*Selector tipo agrupación */
+
+div, p, h2, small{
+    font-size: 40px;
+    color: deeppink;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/*Selector tipo atributo */
+input[type="text"]{
+    border: 2px solid rgb(91, 137, 79);
+    border-radius: 10px;
+    width: 40%;
+}
+
+/* sELECTOR TIPO PSEUDOCLASE */
+a:hover{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
 }
