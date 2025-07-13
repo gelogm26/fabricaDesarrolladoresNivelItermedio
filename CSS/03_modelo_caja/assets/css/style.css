@@ -1,0 +1,27 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+.caja{
+    background-color: lightcyan;
+    color: chocolate;
+    width: 500px;
+
+    /* modelo caja*/
+    padding: 30px;
+    border: 5px solid red;
+    margin: 40px auto;
+}
+
+.contenedor{
+    border: 2px solid blueviolet;
+    text-align: center;
+}
