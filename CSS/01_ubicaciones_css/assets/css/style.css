@@ -1,0 +1,12 @@
+h1{
+    color: aquamarine;
+    text-align: center;
+    font-size: 35px;
+}
+
+p{
+    color: blue;
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
