@@ -1,0 +1,31 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.borde-solido{
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.borde-punteado{
+    border: 2px dashed blue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.borde-doble{
+    border: 8px double blue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.borde-relieve{
+    border: 10px groove blue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
