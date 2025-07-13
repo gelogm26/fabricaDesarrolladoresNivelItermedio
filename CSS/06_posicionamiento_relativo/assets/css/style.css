@@ -1,0 +1,9 @@
+.relativo{
+    position: relative;
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid blue;
+    top: 150px;
+    left: 90px;
+    width: 600px;
+}
