@@ -1,0 +1,32 @@
+/*Selector de tipo global o elemento*/
+
+span{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+/* Selector tipo clase */
+.centrar-texto{
+    text-align: center;
+}
+
+.texto-grande{
+    font-size: 40px;
+}
+
+.color-texto{
+    color: purple;
+}
+
+.formato-parrafo{
+    color: red;
+    font-size: 28px;
+    text-align: right;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Selector de tipo identificador */
+#color-titulo{
+    color: brown;
+}
