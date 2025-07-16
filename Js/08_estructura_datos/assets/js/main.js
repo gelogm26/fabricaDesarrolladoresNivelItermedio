@@ -105,3 +105,36 @@ console.log("<---Ciclo FOR OF--->");
 for(let elemento of arregloDatos){
     console.log(elemento);
 }
+
+console.log("<-------------------------------------->")
+console.log("Arreglos de múltiples dimensiones");
+console.log("<-------------------------------------->")
+
+let arregloBiDimensional = 
+[
+    [1,2,3], //Posicion 0
+    [4,5,6], //Posicion 1
+    [7,8,9]  //Posicion 2
+]
+
+console.log(arregloBiDimensional)
+
+console.log("<---Acceder a los datos--->");
+
+console.log(arregloBiDimensional[0][0]) //Se accedió al primer arreglo, y a su primer posición)
+console.log(arregloBiDimensional[2]) //Se accedió al último arreglo
+
+console.log("<---Modificar elementos de arreglos de múltiples dimensiones--->");
+
+arregloBiDimensional[0] = [0,1,2];
+console.log(arregloBiDimensional) //Se modificó todo del primer arreglo
+arregloBiDimensional[1][1] = 99;
+console.log(arregloBiDimensional) //Se modificó sólo la posición 1 del arreglo en posición 1
+
+console.log("<---Recorrer arreglos de múltiples dimensiones con ciclo for--->");
+
+for(let i = 0; i < arregloBiDimensional.length; i++){
+    for(let arregloPequeño = 0; arregloPequeño < arregloBiDimensional[i].length; arregloPequeño++){
+        console.log(`Elemento en [${i}[${arregloPequeño}] = ${arregloBiDimensional [i][arregloPequeño]}]`)
+    }
+}
