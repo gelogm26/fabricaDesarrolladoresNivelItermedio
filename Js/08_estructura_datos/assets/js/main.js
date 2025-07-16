@@ -20,3 +20,8 @@ console.log("Arreglo con diferentes tipos de datos")
 
 let arregloDatos = ["Hola", 43, true, null, 100.25, false, "Otra cadena"];
 console.log(`Primer elemento: ${arregloDatos[0]}`);
+
+console.log("Modificar datos del arreglo");
+console.log(arregloDatos);
+arregloDatos[2] = "¡Hola!, ¿Cómo estás?";
+console.log(arregloDatos);
