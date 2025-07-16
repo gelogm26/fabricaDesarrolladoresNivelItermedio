@@ -138,3 +138,11 @@ for(let i = 0; i < arregloBiDimensional.length; i++){
         console.log(`Elemento en [${i}[${arregloPequeño}] = ${arregloBiDimensional [i][arregloPequeño]}]`)
     }
 }
+
+console.log("<---Recorrer arreglos de múltiples dimensiones con ciclo for of--->");
+
+for(let elemento of arregloBiDimensional){
+    for(let subElemento of elemento){
+        console.log(subElemento)
+    }
+}
