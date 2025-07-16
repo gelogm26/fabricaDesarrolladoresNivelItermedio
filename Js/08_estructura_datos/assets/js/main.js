@@ -77,3 +77,31 @@ console.log("Método length() -  Devuelve cuantos elementos tiene el arreglo");
 let cantidadElementosArreglo = arregloLetras.length;
 console.log(arregloLetras)
 console.log(`El arreglo tiene la siguiente cantidad de elementos: ${cantidadElementosArreglo}`)
+
+console.log("<-------------------------------------->")
+console.log("Recorrer arreglos con ciclos iterativos");
+console.log("<-------------------------------------->")
+
+arregloDatos = ["Hola", 43, true, null, 100.25, false, "Otra cadena"];
+console.log(arregloDatos);
+
+console.log("<---Ciclo FOR--->");
+
+for(let i = 0;i <= arregloDatos.length; i++){
+    console.log(arregloDatos[i])
+}
+
+console.log("<---Ciclo WHILE--->");
+
+let c = 0;
+
+while (c < arregloDatos.length) {
+    console.log(arregloDatos[c]);
+    c++;
+}
+
+console.log("<---Ciclo FOR OF--->");
+
+for(let elemento of arregloDatos){
+    console.log(elemento);
+}
