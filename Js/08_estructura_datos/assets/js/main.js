@@ -15,3 +15,8 @@ console.log(`Primer elemento: ${arregloNumeros[0]}`);
 console.log(`Segundo elemento: ${arregloNumeros[1]}`);
 console.log(`Quinto elemento: ${arregloNumeros[4]}`);
 console.log(`Último elemento: ${arregloNumeros[9]}`);
+
+console.log("Arreglo con diferentes tipos de datos")
+
+let arregloDatos = ["Hola", 43, true, null, 100.25, false, "Otra cadena"];
+console.log(`Primer elemento: ${arregloDatos[0]}`);
